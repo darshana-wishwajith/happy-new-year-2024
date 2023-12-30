@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body{
+    background-color: rgb(1,5,11) !important;
+}
+
+/* .greetings{
+    font-size: 10rem;
+    color: rgb(129, 129, 129);
+    font-weight: 900;
+} */
+
+h5{
+    font-size: 2rem !important;
+    font-weight: bold !important;
+    color: aliceblue !important;
+}
+
+.number{
+    font-size: 5rem !important;
+    font-weight: bold;
+    color: aliceblue !important;
+    margin-top: -20px !important;
+}
+
+.timer-bg{
+    background-color: rgb(33,38,45);
+    color: rgb(218, 64, 64);
+}
