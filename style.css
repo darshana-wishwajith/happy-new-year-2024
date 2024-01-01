@@ -15,7 +15,7 @@ body{
     font-weight: 900;
 } */
 
-h5{
+.timer_text{
     font-size: 2rem !important;
     font-weight: bold !important;
     color: aliceblue !important;
@@ -32,3 +32,18 @@ h5{
     background-color: rgb(33,38,45);
     color: rgb(218, 64, 64);
 }
+
+.form-control:focus {
+    border-color: #198754 !important;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25) !important;
+} 
+
+@media only screen and (max-width: 1000px) {
+    .timer_text{
+        font-size: 1rem !important;
+    }
+    .number{
+        font-size: 3rem !important;
+        margin-top: 1px !important;
+    }
+  }
